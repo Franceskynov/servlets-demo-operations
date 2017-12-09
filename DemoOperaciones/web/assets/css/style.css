@@ -1,0 +1,107 @@
+@charset "utf-8";
+body{
+    font-family: "Helvetica", sans-serif;
+        background-image: url("../img/template_notebook.png");
+}
+.sty{
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: "Helvetica", sans-serif;
+}
+.sty fieldset{
+    border: none;
+}
+.sty legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.sty label {
+    display: block;
+    margin-bottom: 8px;
+}
+.sty input[type="text"],
+.sty input[type="date"],
+.sty input[type="datetime"],
+.sty input[type="email"],
+.sty input[type="number"],
+.sty input[type="search"],
+.sty input[type="time"],
+.sty input[type="url"],
+.sty textarea,
+.sty select {
+    font-family: "Helvetica", sans-serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    
+}
+.sty input[type="text"]:focus,
+.sty input[type="date"]:focus,
+.sty input[type="datetime"]:focus,
+.sty input[type="email"]:focus,
+.sty input[type="number"]:focus,
+.sty input[type="search"]:focus,
+.sty input[type="time"]:focus,
+.sty input[type="url"]:focus,
+.sty textarea:focus,
+.sty select:focus{
+    background: #d2d9dd;
+}
+.sty select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+.sty .number {
+    background: #1abc9c;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+.sty input[type="submit"],
+.sty input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+.sty input[type="submit"]:hover,
+.sty input[type="button"]:hover
+{
+    background: #109177;
+}
