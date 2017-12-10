@@ -144,4 +144,33 @@ public class Operadores {
         
         return d;
     }
+
+    /**
+     *
+     * @param numero
+     * @return
+     */
+    public double factorial(double numero){
+
+        if (numero == 0){
+
+           return 1;
+
+        }else{
+
+
+            return numero * factorial(numero -1);
+        }
+    }
+
+    /**
+     *
+     * @param d
+     * @return
+     */
+    public Datos factorizacion(Datos d){
+
+        d.setResultado(factorial(d.getNumA()));
+        return d;
+    }
 }

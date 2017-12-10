@@ -94,6 +94,10 @@ public class Operaciones extends HttpServlet {
                     break;
                     
                 case 6:
+                    oper.factorizacion(d);
+                    break;
+
+                case 7:
                     oper.cuadratica(d);
                     break;
                     
