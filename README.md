@@ -8,7 +8,11 @@ Java servlet are used as controlled and .jsp files are used as view for show dat
 ## Screen shots
 
 ![select operation](https://raw.githubusercontent.com/Franceskynov/servlets-demo-operations/master/ScreenShots/1.png)
+
+
 ![cuadratic equation](https://raw.githubusercontent.com/Franceskynov/servlets-demo-operations/master/ScreenShots/2.png)
+
+
 ![result](https://raw.githubusercontent.com/Franceskynov/servlets-demo-operations/master/ScreenShots/3.png)
 
 ## Error pages
